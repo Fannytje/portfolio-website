@@ -135,12 +135,12 @@ footer {
 }
 
 .tools i {
-  font-size: 36px;
+  font-size: 24px;
   color: var(--branding-color);
 }
 
 .tools img {
-  max-width: 36px;
+  max-width: 24px;
   color: var(--branding-color);
 }
 

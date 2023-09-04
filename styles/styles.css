@@ -222,6 +222,10 @@ a:hover {
   color: var(--tertiary-color);
 }
 
+.testimonial img {
+  border-radius: 5px;
+}
+
 footer li {
 font-family: var(--default-font-family);
 font-size: 14px;
@@ -235,6 +239,7 @@ footer p {
 footer .contact-box {
   background: var(--tertiary-color);
   padding:30px 120px;
+  margin: 148px;
   border-radius: 10px ;
 }
 

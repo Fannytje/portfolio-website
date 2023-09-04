@@ -22,12 +22,12 @@ font-weight: bold;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 78px;
   font-weight: bold;  
 }
 
 h2 {
-  font-size:64px;
+  font-size:36px;
 }
 
 h3{
@@ -48,6 +48,26 @@ footer {
 
 a {
   color: var(--branding-color);
+}
+
+.footer-info {
+  background-color: var(--branding-color);
+  color: var(--tertiary-color);
+  padding: 30px 100px;
+}
+
+.footer-info a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.footer-info li {
+  list-style-type: none;
+}
+
+.fa-arrow-right {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 a:hover {
@@ -100,7 +120,19 @@ a:hover {
 .hero {
   background: var(--tertiary-color) ;
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
+  background-image: linear-gradient( to bottom right, var(--secondary-color), var(--tertiary-color));
+}
+
+.hero h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
 }
 
 .hero p {
@@ -108,12 +140,6 @@ a:hover {
   font-size: 36px;
   margin:0px;
   color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--default-font-family);
-  font-weight:normal;
-  font-size:24px;
 }
         
 .btn-branding {
@@ -167,6 +193,12 @@ a:hover {
 
 .profile-photo {
   max-width: 200px;
+}
+
+  footer li {
+font-family: var(--default-font-family);
+font-size: 12px;
+font-weight: 400;
 }
 
 footer p {

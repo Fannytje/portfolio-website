@@ -195,7 +195,7 @@ a:hover {
 .devices-img {
   display: block;
   margin: auto;
-  max-width: 500px;
+  max-width: 550px;
 }
 .offer {
   background-image: linear-gradient(to bottom right, var(--secondary-color), var(--tertiary-color));

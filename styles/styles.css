@@ -255,9 +255,15 @@ a:hover {
   border-radius: 5px;
 }
 
+.quote-mark {
+  font-size: 30px;
+}
+
 .image-portfolio {
   border-radius: 10px;
 }
+
+
 
 footer li {
 font-family: var(--default-font-family);
@@ -327,8 +333,7 @@ nav a {
 
 nav a:hover, 
 nav li.active a {
-  color: var(--secondary-color);
-  
+  color: var(--secondary-color); 
 }
 
 @media (max-width:960px) {

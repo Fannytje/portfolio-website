@@ -1,13 +1,15 @@
 :root {
-  --branding-color: #142d4c;
-  --secondary-color: #9fd3c7;
-  --tertiary-color:#e6f4f1;
+  --branding-color: #006269;
+  --secondary-color: #64B6AC;
+  --tertiary-color:#DFEEEC;
+  --accent-color:#EF8557;
+  --anthracite: #393D47;
   --heading-font-family: 'Oleo Script', cursive;
   --default-font-family:'Poppins', sans-serif;
 }
 
 body {
-   background-color: white; 
+   background-color: var(--off-white);
 }
 
 h1, 
@@ -45,6 +47,8 @@ a {
   color: var(--branding-color);
 }
 
+
+
 .footer-info {
   background-color: var(--branding-color);
   color: var(--tertiary-color);
@@ -60,6 +64,11 @@ a {
   list-style-type: none;
 }
 
+.footer-credit {
+  color: var(--tertiary-color);
+  font-size: 12px;
+}
+
 .fa-arrow-right {
   padding: 0 6px;
 }
@@ -70,6 +79,7 @@ a:hover {
 
 .subtitle {
   font-size: 36px;
+  color: var(--tertiary-color);
 }
 
 .content-container {
@@ -83,10 +93,12 @@ a:hover {
 .content h1 {
   font-size: 64px;
   line-height: 85px;
+  color: var(--tertiary-color);
 }
 
 .content h2 {
   font-family: var(--default-font-family);
+  color: var(--tertiary-color);
   font-size: 18px;
 }
 
@@ -99,10 +111,13 @@ a:hover {
 
 .content p {
   font-size: 14px;
+  font-family: var(--default-font-family) ;
+  color:#DFEEEC;
 }
 
 .about-section p {
   font-style:normal;
+  color: var(--tertiary-color);
 }
 
 .content-container img {
@@ -112,7 +127,7 @@ a:hover {
 }
         
 .hero {
-  background: var(--tertiary-color) ;
+  background: var(--branding-color);
   text-align: left;
   padding: 100px 20px;
   background-image: linear-gradient(to bottom right, var(--secondary-color), var(--tertiary-color));
@@ -135,20 +150,24 @@ a:hover {
   margin:0px;
   color: #272142;
 }
-        
+      
+.btn {
+  font-family: var(--default-font-family);
+}
+
 .btn-branding {
-  background-color: var(--branding-color);
+  background-color: var(--secondary-color);
   border-radius: 4;
-  color: var(--secondary-color);
+  color: var(--branding-color);
   font-size: 18px;
-  line-height: 27px;
+  line-height: 20px;
   padding: 15px 30px;
   box-shadow: 2px 2px 5px rgba(29, 28, 28, 0.5);
 }
 
  .btn-branding:hover {
-  background: var(--secondary-color);
-  color: var(--branding-color);
+  background: var(--branding-color);
+  color: var(--secondary-color);
   transition: 150ms all ease-in-out;
 }
 
@@ -173,17 +192,17 @@ a:hover {
 .tools {
   font-size: 18px;
   text-align: center;
-  color: var(--branding-color);
+  color: var(--tertiary-color);
 }
 
 .tools i {
-  font-size: 24px;
-  color: var(--branding-color);
+  font-size: 20px;
+  color: var(--tertiary-color);
 }
 
 .tools img {
   max-width: 24px;
-  color: var(--branding-color);
+  color: var(--tertiary-color);
 }
 
 .profile-photo {
@@ -206,8 +225,13 @@ a:hover {
   border-radius: 10px;
 }
 
+.overview {
+  font-family: var(--default-font-family);
+  color: #DFEEEC;
+}
 .services-title {
   font-size: 24px;
+  color: var(--branding-color)
 }
 
 .icon-dark {
@@ -236,7 +260,9 @@ a:hover {
   font-family: var(--default-font-family);
   padding: 20px 15px;
   margin: 10px;
-  border-radius: 10px
+  border-radius: 10px;
+  font-size: 14px;
+  
 }
 
 
@@ -264,7 +290,13 @@ a:hover {
   border-radius: 10px;
 }
 
+body {
+  background-color: var(--branding-color);
+}
 
+footer {
+  background-color:var(--primary-color);
+}
 
 footer li {
 font-family: var(--default-font-family);
@@ -274,16 +306,18 @@ font-weight: 400;
 
 footer p {
   font-size: 14px;
+  color: var(--branding-color);
 }
 
-footer .contact-box {
-  background: var(--tertiary-color);
-  padding:30px 120px;
-  margin: 148px;
+
+.contact-box {
+  background-image: linear-gradient(to bottom right, var(--secondary-color), var(--tertiary-color));
+  padding:30px 30px;
+  margin: 30px;
   border-radius: 10px ;
 }
 
-footer .contact-box p {
+.contact-box p {
   margin:0;
 }
 footer .email-link {
@@ -313,6 +347,7 @@ footer .social-links a:hover{
 
 nav {
   padding:20px 0;
+  font-family: var(--default-font-family);
 }
 
 nav ul {
@@ -328,14 +363,20 @@ nav li{
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--secondary-color);
   transition: all 100ms ease-in-out;
   }
 
 nav a:hover, 
 nav li.active a {
-  color: var(--secondary-color); 
+  color: var(--tertiary-color); 
 }
+
+nav .btn-branding {
+  padding: 8px 30px;
+  font-size: 16px;
+}
+
 
 @media (max-width:960px) {
   h1 {
@@ -358,6 +399,4 @@ nav li.active a {
   text-align: center;
   padding:0;
 }
-
-
 }

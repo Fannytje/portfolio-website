@@ -368,15 +368,23 @@ nav li{
   margin-left: 15px;
 }
 
-nav a {
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item a {
   text-decoration: none;
   color: var(--tertiary-color);
   transition: all 100ms ease-in-out;
   }
 
-nav a:hover, 
-nav li.active a {
+
+.nav-item a:hover {
   color: var(--secondary-color); 
+}
+
+.nav-item a:active {
+  color: var(--secondary-color);
 }
 
 nav .btn-branding {

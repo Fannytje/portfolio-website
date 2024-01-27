@@ -29,31 +29,41 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0cc8ad2b13.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="vh-100">
   <div class="container">
-    <div class="container">
-      <nav class="d-flex justify-content-between navbar">
-        <a href="/" title="Homepage">
-          <img src="">
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Fanny">
-              About
-            </a>
-          </li>
-          </li>
-          <li class="email">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i> info@ginkgoweb.net
-          </li>
-        </ul>
-    </div>
-    </nav>
+      <nav class="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
+        <div class="container">
+          <button class="navbar-toggler border-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-white border-bottom">
+              <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h3>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link " aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" href="/about.html">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="mailto:info@ginkgoweb.net"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    info@ginkgoweb.net
+                  </a>
+    
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
   <div class="content-container container"> 
       <div class="row">
         <div class="col-lg-6">
@@ -184,7 +194,7 @@
       </div>
     </div>
   </div>
-  
+</body>
 
   <footer>
   

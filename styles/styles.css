@@ -4,8 +4,8 @@
   --tertiary-color:#DFEEEC;
   --accent-color:#EF8557;
   --anthracite: #393D47;
-  --heading-font-family: 'Oleo Script', cursive;
-  --default-font-family:'Poppins', sans-serif;
+  --heading-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --default-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 

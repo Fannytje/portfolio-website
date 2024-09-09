@@ -137,7 +137,7 @@ p {
 font-family: var(--default-font-family);
 font-weight: normal;
 font-size:16px;
-line-height: 25px;
+line-height: 1.4em;
 }
 
 a {
@@ -374,6 +374,11 @@ a:hover {
 .tiny-tag icon {
   font-size: 12px;
 }
+
+.summary, .details {
+  color:var(--tertiary-color);
+}
+
 
 .testimonial {
   background-color: var(--branding-color);

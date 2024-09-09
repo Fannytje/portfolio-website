@@ -140,6 +140,10 @@ font-size:16px;
 line-height: 1.4em;
 }
 
+.detail-link{
+  color:var(--tertiary-color);
+} 
+
 a {
   color: var(--branding-color);
 }
@@ -386,8 +390,11 @@ a:hover {
   font-family: var(--default-font-family);
   margin: 10px;
   border-radius: 10px;
-  font-size: 14px;
-  
+  font-size: 14px; 
+}
+
+.testimonial-background {
+  background-color: var(--branding-color);
 }
 
 .example {

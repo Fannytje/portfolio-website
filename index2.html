@@ -105,6 +105,36 @@
           </div>
         </div>
       </div>
+      <div class="col-lg testimonial px-4">  
+        <div>
+           <p class="testimonial-title my-2">
+                <a href="https://majabendias.de">Maja Bendias</a>
+            </p>
+            <a href="https://majabendias.de">
+                <img src="images/Compressed-images/maja-bendias-artist-homepage-comp.PNG" alt="Maja Bendias art"
+                    class="img-fluid image-portfolio my-3">
+            </a>
+        </div>    
+        <div>
+            Maja Bendias is an artist from Germany who makes beautiful creations using acrylic paint and photography.
+        </div>
+    </div>  
+</div>
+
+
+<div class="col-lg testimonial px-4">
+    <div>
+        <p class="testimonial-title my-2">
+            <a href="dagvandebruinekroeg.nl">Dag van de Bruine Kroeg</a>
+        </p>
+        <a href="dagvandebruinekroeg.nl">
+            <img src="images/Compressed-images/dag-van-de-bruine-kroeg-homepage-comp.PNG" alt="dag-van-de-bruine-kroeg-homepage"
+                class="img-fluid image-portfolio my-3">
+        </a>
+    </div>
+    <div>
+        De Dag van de Bruine Kroeg is a yearly celebration of historic brown cafés in Amsterdam.
+    </div>
       <footer>
         <div class="contact-box d-flex justify-content-between d-none d-md-flex mb-5">
           <div>
@@ -144,5 +174,44 @@
     <p class="mt-3 text-center">This project was coded by Fanny Nordberg and is <a href="https://github.com/Fannytje/portfolio-website" target="_blank" title="Github profile">open-sourced</a>.</p>
     </footer>
     </div>
+
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Content Example</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 20px;
+            transition: transform 0.3s;
+        }
+        .arrow.rotated {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <span class="arrow" id="toggleArrow">➡️</span>
+    <div id="moreContent" class="hidden">
+        <p>This is the additional content that is initially hidden. You can add any long text here!</p>
+    </div>
+</div>
+
+<script>
+    const arrow = document.getElementById("toggleArrow");
+    const content = document.getElementById("moreContent");
+
+    arrow.addEventListener("click", () => {
+        content.classList.toggle("hidden");
+        arrow.classList.toggle("rotated");
+    });
+</script>
+
 </body>
 </html>

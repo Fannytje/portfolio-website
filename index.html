@@ -22,97 +22,69 @@
         crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/0cc8ad2b13.js" crossorigin="anonymous"></script>
+    <script src="loadHeaderFooter.js" defer></script>
+    <script src="script.js" defer></script>
 
 </head>
 
 <body class="vh-100">
+    <header></header>
     <div class="container">
-<nav class="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
-    <div class="container">
-        <button class="navbar-toggler border-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header text-white border-bottom">
-                <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h3>
-                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="mailto:info@ginkgoweb.net"><i class="fa fa-envelope-o" aria-hidden="false"></i> info@ginkgoweb.net
-                        </a>
-                    
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
-
 </div>
 <main>
     <div class="hero">
-        <div class="container">
+        <div class="container max-width:1080px">
             <div class="row">
                 <div class="col mt-5">
-                    <img src="images/programmer.svg" 
-                    alt="devices-of-different-sizes" 
+                    <img src="images/undraw_real_time_sync_re_nky7.svg" 
+                    alt="programmer-illustration" 
                     class="devices-img"
-                    style="max-width: 350px;">
+                    style="max-width: 350px">
                 </div>
                 <div class="col">
-                    <h1 class="mt-5 mb-5">
-                        Websites for your Social and Environmental Projects
+                    <h1 class="mt-5 mb-3">
+                        Share your impact with the world
                     </h1>
-                    <h2 class="mb-5">Share your impact with the world</h2>
-                    <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me
+                    <h2 class="mb-4">Websites for your social and environmental projects</h2>
+                    <a href="/contact.html" class="btn btn-branding" title="Contact">Get in touch
                     </a>
                 </div>
             </div>
         </div>
     </div>
     
-    <div class="container mt-5">
-        <div class="row overview">
+    <div class="container mt-5" >
+        <div class="row overview anchor" id="services">
             <div class="col-lg">
-                <h2 class="subtitle ">How I can help</h2>
+                <h2 class="subtitle mb-3">How I can help</h2>
                 <p>
-                Whether you need a new website, a redesign or maintenance of your existing site, I'll guide you through to successfully define your needs and the steps needed to reach your goals.
+                Let me be your guide to identify your needs and define the steps to reach your website's goals.
                 </p>
                 <p>
-                Together we will create intuitive and easy to navigate interfaces that are a perfect fit for your project and
-                values.
+                Whether you need a new website, a redesign or maintenance of your existing site, together we will create intuitive and easy to navigate interfaces that are a perfect fit for your project and
+                values. 
                 </p>
                 <p>
-                By focussing on accessibility and reducing your website’s ecological footprint, it will rank high in search engines results so your clients can quickly find the exact information they need.
-                </p>
-                <p>
-                With responsive design your website will look great on devices big and small.
+                With responsive design, your website will look great on devices big and small. And by focussing on reducing your website’s ecological footprint, your site will be more sustainable and accessible.
                 </p>
             </div>
         
             <div class="col-lg align-self-center">
                 <div class="text-center">
-                <img src="images/different-devices.svg"
+                <img src="images/programmer.svg"
                 class="img-fluid"
                 alt="Example of responsive website shown on devices of different sizes"
-                style="max-width: 400px">
+                style="max-width: 300px">
                 </div>
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+
+    
+      <div class="container mt-5">
         <div class="row mb-5 mt-5">
-            <div class="col-lg offer">
+            <div class="col-md-4 services">
+                <div>
                 <div class="text-center">
                     <i class="fa-solid fa-laptop-code icon-dark"></i>
                 </div>
@@ -129,16 +101,15 @@
                                 Search Engine Optimisation (SEO)
                             </li>
                             <li>
-                                Guidance to create engaging texts and images for your audience
-                            </li>
-                            <li>
                                 Instructions for updating content yourself (if you wish to do so!)
                             </li>
                         </ul>
                 </div>
             </div>
+            </div>
 
-            <div class="col-lg offer">
+            <div class="col-md-4 services">
+                <div>
                 <div class="text-center">
                     <i class="fa-solid fa-toolbox icon-dark"></i>
                 </div>
@@ -157,11 +128,12 @@
                         Improvement in accessibility, findability and speed
                    </li>
                     <li>
-                        Adding translation functionality to make your website multilingual
+                        Translation functionality to make your website multilingual
                     </li>
                 </ul>
             </div>
-            <div class="col-lg offer">
+            </div>
+            <div class="col-md-4 services">
                 <div class="text-center">
                     <i class="fa-solid fa-chalkboard-user icon-dark"></i>
                 </div>
@@ -181,107 +153,135 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <h2 class="subtitle text-center mb-5">Some recent projects</h2>
-        
-        <div class="row mt-5">
-            <div class="row mb-1">
-                <div class="col-lg testimonial px-4">
+<section class="portfolio" id="portfolio">
+    <section class="work-eperience container anchor">
+        <h2>Recent projects</h2>
+        <div class="row jobs mt-4 mb-4">
+            <div class="col-md-4">
+            <article>
+                <figure>
                     <div>
-                        <p class="testimonial-title my-2">
-                            <a href="https://ascainenjeux.fr/">Ascain en jeux</a>
-                        </p>
-                        <img src="images/Compressed-images/ascain-en-jeux-homepage-comp.PNG" class="img-fluid my-3 image-portfolio"
-                            alt="Ascain en jeux festival brings different generations together to play board games.">
+                        <img src="images/humansbynature.png" 
+                                alt="humans by nature"
+                                width="100%"/>
+                        <figcaption>
+                            Humans by Nature
+                        </figcaption>
                     </div>
+                </figure>
+                <p>Humans by Nature facilitates environmental projects by connecting volunteers with ecological projects.</p>
+                <button class="toggle-button" id="toggleButton">
+                        <i class="fas fa-chevron-down arrow-icon"></i>
+                    </button>
+                    <div class="toggle-content" id="toggleContent">
+                        <p>Website built in Wordpress with Divi theme including Advanced Custom Fields.</p>
+                    </div>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article>
+                <figure>
                     <div>
-                        The Ascain En Jeux games festival brings different generations together for two days of fun.
+                        <img src="images/ValueChange_homepage.webp" 
+                                alt="ValueChange"
+                                width="100%"/>
+                        <figcaption>
+                            ValueChange
+                        </figcaption>
                     </div>
-                </div>         
-
-                <div class="col-lg testimonial px-4">
-                    <div>
-                        <p class="testimonial-title my-2">
-                                <a href="https://degroenekans.nl/">De Groene Kans</a>
-                        </p>
-                        <img src="images/Compressed-images/de-groene-kans-homepage-comp.PNG" class="img-fluid my-3 image-portfolio"
-                                alt="De Groene Kans saves unsold food from supermarket chains and organises weekly meet-ups to share the food with those who need it most.">
-                        </div>
-                        <div>
-                            De Groene Kans saves unsold food from supermarket chains and organises weekly meet-ups to share the food with those who
-                            need it most.
-                        </div>
-                    </div>
-
-                <div class="col-lg testimonial px-4">
-                    <div>
-                        <p class="testimonial-title my-2">
-                            <a href="dagvandebruinekroeg.nl">Dag van de Bruine Kroeg</a>
-                        </p>
-                        <a href="dagvandebruinekroeg.nl">
-                            <img src="images/Compressed-images/dag-van-de-bruine-kroeg-homepage-comp.PNG" alt="dag-van-de-bruine-kroeg-homepage"
-                                class="img-fluid image-portfolio my-3">
-                        </a>
-                    </div>
-                    <div>
-                        De Dag van de Bruine Kroeg is a yearly celebration of historic brown cafés in Amsterdam.
-                    </div>
+                </figure>
+                <p>ValueChange helps create sustainable value chains with respect for human rights.</p>
+                <button class="toggle-button" id="toggleButton">
+                    <i class="fas fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="toggle-content" id="toggleContent">
+                    <p>Website built in Wordpress with Divi theme including Advanced Custom Fields.</p>
                 </div>
-            </div>
-
-            <div class="row mb-1">
-                <div class="col-lg testimonial px-4">
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article>
+                <figure>
                     <div>
-                    <p class="testimonial-title my-2">
-                        <a href="https://ease.nl/">@Ease</a>
-                    </p>
-                    <img src="images/at-ease-homepage.PNG" class="img-fluid my-3 image-portfolio"
-                        alt="At Ease has walk-in locations, where youth can receive psychiatric help and support in a relaxed manner from their peers and professionals.">
+                        <img src="images/at-ease-homepage.PNG" 
+                                alt="at ease"
+                                width="100%"/>
+                        <figcaption>
+                            @ease
+                        </figcaption>
                     </div>
-                    <div>
-                        At Ease has walk-in locations, where youth can receive psychiatric help and support in a relaxed manner from their peers
-                        and professionals.
-                    </div>
+                </figure>
+                <p>@ease has walk-in locations, where youth can receive psychiatric help and support from their peers and professionals.</p>
+                <button class="toggle-button" id="toggleButton">
+                    <i class="fas fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="toggle-content" id="toggleContent">
+                    <p>Website built in Wordpress with Divi theme including Advanced Custom Fields.</p>
                 </div>
-
-           
-        <div class="col-lg testimonial px-4">
-            <div>
-                <p class="testimonial-title my-2">
-                    <a href="https://mooc.terranova-itn.eu/courses/landscape-management">TerraNova MOOC</a>
-                </p>
-                                <a href="https://mooc.terranova-itn.eu/courses/landscape-management">
-                    <img src="images/Compressed-images/TerraNova_MOOC_homepage-comp.PNG" alt="TerraNova-MOOC-screenshots-on-different-devices"
-                        class="img-fluid image-portfolio my-3">
-                </a>
-            </div>
-            <div>
-                TerraNova's MOOC 'Integrated Landscape Analysis (ILA): Addressing the biodiversity and climate crises' was created by fifteen PhD candidates from leading European universities.
+            </article>
             </div>
         </div>
-
-        <div class="col-lg testimonial px-4">  
-            <div>
-               <p class="testimonial-title my-2">
-                    <a href="https://majabendias.de">Maja Bendias</a>
-                </p>
-                <a href="https://majabendias.de">
-                    <img src="images/Compressed-images/maja-bendias-artist-homepage-comp.PNG" alt="Maja Bendias art"
-                        class="img-fluid image-portfolio my-3">
-                </a>
-            </div>    
-            <div>
-                Maja Bendias is an artist from Germany who makes beautiful creations using acrylic paint and photography.
-            </div>
-        </div>  
-    </div>
-    </div>
+            <div class="jobs mb-5">
+            <article>
+                <figure>
+                    <div class="workplace-img">
+                        <img src="images/anatolelebreton.png" 
+                                alt="anatolelebreton"
+                                width="100%"/>
+                        <figcaption>
+                            Anatole Lebreton
+                        </figcaption>
+                    </div>
+                </figure>
+                <p>Anatole Lebreton creates incredible fragrances in Provence which he sells via his online store to fans all over the world.</p>
+            </article>
+            <article>
+                <figure>
+                    <div class="workplace-img">
+                        <img src="images/ascain-en-jeux-homepage.PNG" 
+                                alt="ascain en jeux festival"
+                                width="100%"/>
+                        <figcaption>
+                            Ascain en Jeux
+                        </figcaption>
+                    </div>
+                </figure>
+                <p>The Ascain En Jeux games festival brings different generations together for two days of fun.</p>
+            </article>
+            <article>
+                <figure>
+                    <div class="workplace-img">
+                        <img src="images/de-groene-kans-homepage.PNG" 
+                                alt="de groene kans homepage"
+                                width="100%"/>
+                        <figcaption>
+                            De Groene Kans
+                        </figcaption>
+                    </div>
+                </figure>
+                <p>De Groene Kans saves unsold food from supermarket chains and organises weekly meet-ups to share the food with those who need it most.</p>
+            </article>
+        </div>
+        </div>
+        <div class="mt-2 d-flex justify-content-center">
+            <a href="mailto:info@ginkgoweb.net" class="btn btn-branding mb-4">Get in touch</a>
+        </div>
+    </section>
 
     <div class="container mt-5">
-        
-        <div class="row">
-            <div class="col offer">
-                <h2 class="subtitle text-center m-3 quote">What it's like to work with me</h2>
+        <div class="row testimonial">
+            <h2 class="subtitle text-center m-3 quote mb-5">What it's like to work with me</h2>
+            <div class="col-md-6 mb-5 offer"> 
+                <p>
+                    <i class="fa-solid fa-quote-left quote-mark"></i>
+                    Fanny did such a wonderful job creating our website. I wanted the ValueChange website to be crisp, clear, and a beautiful ‘business card’ for the company. I am so happy with the end result. Working with Fanny has been a real joy; her patience, professionalism and eye for detail made sure we now have a website that is even cooler than expected. Would highly recommend working with Fanny for anyone looking to have a smooth process and a website that works for you!
+                    <i class="fa-solid fa-quote-right quote-mark"></i>
+                </p>
+                <p><i class="fa-solid fa-user"></i> Anne Manschot -
+                    <a href="wevaluechange.com">ValueChange | Sustainability Consulting</a>
+                </p>
+            </div>
+            <div class="col-md-6 offer">
                     <p>
                         <i class="fa-solid fa-quote-left quote-mark"></i>
                         Fanny is very knowledgeable, reliable and has created a beautiful website for us. She thinks along and comes up with
@@ -291,7 +291,7 @@
                         can make adjustments, so we can work on the website ourselves if we want.
                         <i class="fa-solid fa-quote-right quote-mark"></i>
                     </p>
-                    <p>Kim Oomen -
+                    <p><i class="fa-solid fa-user"></i> Kim Oomen -
                         <a href="degroenekans.nl">De Groene Kans</a>
                     </p>
         </div>
@@ -299,26 +299,22 @@
     </div>
 
     <div class="container mt-5">
-    <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+    <div class="contact-box d-flex justify-content-between d-md-flex">
         <div>
             <h2>
                 Let's have a chat!
             </h2>
             <p>
                 Do you have any questions? Ideas for a project?
-            </p>
-            <p>
+                <br>
                 I'd be happy to schedule a call to see how we can work together.
             </p>
             <p>
                 <i class="fa fa-envelope-o" aria-hidden="false"></i> <strong>info@ginkgoweb.net</strong>
             </p>
-        </div>
-        <div>
             <a href="/contact.html" class="btn btn-branding" title="Contact Fanny">Contact me</a>
-        </div>
         <div>
-            <a href="/work.html" class="btn btn-branding">View projects</a>
+            
         </div>
     </div>
     </div>
@@ -326,54 +322,6 @@
     </div>
     </main>
     <footer>
-        <div class="row footer-info justify-content-between">
-            <div class="col">
-                <div>
-                    <ul>
-                        <li>
-                            <a href="/" title="Homepage">
-                                Ginkgo Web
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/about.html" title="About Fanny">
-                                About
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-            <div class="col">
-                <div>
-                    <ul>
-                    <li>
-                        Hendaye - France
-                    </li>
-                    <li>
-                        SIREN: 923610000
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col">
-                <div class="social-links d-flex justify-content-center mb-2">
-                    <a href="mailto:info@ginkgoweb.net" class="email-link" title="Email Fanny">
-                        <i class="fa fa-envelope-o" aria-hidden="false"></i>
-                    </a>
-                    <a href="https://github.com/Fannytje" title="Github profile" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/fanny-nordberg-823a071/" target="_blank" title="LinkedIn profile">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-            <div>
-                <p class="mb-0 text-center footer-credit">© 2023 - Ginkgo Web - info@ginkgoweb.net</p>
-            </div>
-        </div>
     </footer>
-    
 </body>
 </html>

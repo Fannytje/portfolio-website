@@ -85,7 +85,7 @@
 
 body {
    background-color: var(--off-white);
-   overflow-x: hidden;
+   max-width: 100%;
 }
 
 h1, 
@@ -164,7 +164,8 @@ a:hover {
   color: var(--tertiary-color);
 }
 
-.container {max-width: 1080px;
+.container {
+  max-width: 1080px;
 }
 
 .content-container {

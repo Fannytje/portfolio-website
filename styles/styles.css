@@ -238,12 +238,10 @@ a:hover {
 
 .hero {
   background: var(--branding-color);
-  min-height:85vh;
+  min-height:90vh;
   text-align: left;
   padding: 100px 20px;
   background-image: linear-gradient(to bottom right, var(--branding-color), var(--tertiary-color));
- 
-  
 }
 
 .hero h1{
@@ -274,7 +272,7 @@ a:hover {
   color: var(--branding-color);
   font-size: 18px;
   line-height: 20px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   box-shadow: 2px 2px 5px rgba(29, 28, 28, 0.5);
 }
 
@@ -377,6 +375,12 @@ a:hover {
 
 .tiny-tag icon {
   font-size: 12px;
+}
+
+.ginkgo  {
+  max-height:250px;
+  rotate: 45deg;
+  margin-left: 150px;
 }
 
 .summary, .details {
@@ -524,35 +528,6 @@ nav li{
 nav .btn-branding {
   padding: 8px 30px;
   font-size: 16px;
-}
-
-.toggle-button {
-  background: none;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  outline: none;
-}
-
-.arrow-icon {
-  margin-right: 10px;
-  color: var(--tertiary-color);
-  transition: transform 0.3s ease;
-}
-
-.toggle-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.toggle-content.open {
-  max-height: 500px; /* Arbitrary value to allow expansion */
-  padding-top: 0px;
 }
 
 @media (max-width:960px) {

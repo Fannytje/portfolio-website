@@ -359,7 +359,7 @@ a:hover {
 .ginkgo  {
   max-height:250px;
   rotate: 45deg;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .summary, .details {
@@ -410,6 +410,8 @@ a:hover {
 
 body {
   background-color: var(--branding-color);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 footer {

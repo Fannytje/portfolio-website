@@ -7,27 +7,6 @@
   --heading-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   --default-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
-
-.bento-grid {
-    display:grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
- .bento-item {
-      padding: 30px;
-      background-color: var(--accent-color);
-      border-radius: 10px;
-      &:nth-child(1){
-        grid-column: span 2;
-        grid-row: span 2;
-      }  
-      &:nth-child(2){
-        grid-column: span 2;
-        grid-row: span 1;
-    }
-  }
   
  .jobs {
     display: flex;

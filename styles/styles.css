@@ -280,6 +280,10 @@ a:hover {
   max-height: 40px;
 }
 
+.about {
+  background-color: var(--branding-color);
+}
+
 .tools {
   font-size: 18px;
   text-align: center;

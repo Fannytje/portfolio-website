@@ -86,6 +86,7 @@
 body {
    background-color: var(--off-white);
    max-width: 100%;
+   position: relative;
 }
 
 h1, 
@@ -172,10 +173,6 @@ a:hover {
   padding: 30px 20px;
 }
 
-.content {
-  margin: 30px;
-}
-
 .content h1 {
   font-size: 64px;
   line-height: 85px;
@@ -207,9 +204,8 @@ a:hover {
 }
 
 .content-container img {
-  border-radius: 8px;
+  border-radius: 150px 300px 145px 123px;
   width: 320px;
-  margin: 30px;
 }
 
 .portfolio   {
@@ -281,13 +277,17 @@ a:hover {
 }
 
 .about {
-  background-color: var(--branding-color);
+  background-color: var(--secondary-color);
 }
 
 .tools {
   font-size: 18px;
   text-align: center;
   color: var(--tertiary-color);
+}
+
+.tools-block {
+  background-color: var(--branding-color);
 }
 
 .tools i {
@@ -303,7 +303,7 @@ a:hover {
 .profile-photo {
   display: block; 
   margin: auto;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .anchor{
@@ -507,7 +507,7 @@ nav li{
 }
 
 .nav-item a:active {
-  color: var(--secondary-color);
+  color: red;
 }
 
 nav .btn-branding {

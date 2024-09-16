@@ -170,7 +170,7 @@ a:hover {
 }
 
 .content-container {
-  padding: 30px 20px;
+  padding: 80px 20px 30px;
 }
 
 .content h1 {
@@ -204,8 +204,12 @@ a:hover {
 }
 
 .content-container img {
-  border-radius: 150px 300px 145px 123px;
+  border-radius: 30% 70% 51% 49% / 32% 40% 60% 68%;
   width: 320px;
+}
+
+.kaixo {
+  color: var(--branding-color);
 }
 
 .portfolio   {
@@ -303,7 +307,30 @@ a:hover {
 .profile-photo {
   display: block; 
   margin: auto;
-  max-width: 200px;
+  max-width: 220px;
+}
+
+.custom-shape-divider-bottom-1726518561 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: 70px;
+}
+
+.custom-shape-divider-bottom-1726518561 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 185px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1726518561 .shape-fill {
+  fill: #006269;
 }
 
 .anchor{
@@ -376,7 +403,6 @@ a:hover {
   background-color: var(--branding-color);
   color: var(--tertiary-color);
   font-family: var(--default-font-family);
-  margin: 10px;
   border-radius: 10px;
   font-size: 14px; 
 }

@@ -300,7 +300,7 @@ a:hover {
 }
 
 .about {
-  background-color: var(--secondary-color);
+  background-color: rgb(100 182 172 / .5);
 }
 
 .tools {

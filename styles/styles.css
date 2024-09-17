@@ -224,6 +224,12 @@ a:hover {
   background-image: linear-gradient(to bottom right, var(--secondary-color), var(--tertiary-color));
 }
 
+@media (max-width:960px) {
+  .hero {
+    padding: 70px 20px;
+  }
+}
+
 .hero h1{
   font-size: 52px;
   font-weight: bold;
@@ -352,6 +358,12 @@ a:hover {
 
 .hero-row {
   padding-top: 60px;
+}
+
+@media (max-width:960px) {
+  .hero-row {
+    padding-top: 10px;
+  }
 }
 
 .ginkgo-img {

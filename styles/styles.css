@@ -239,7 +239,7 @@ a:hover {
   font-weight: bold;
   font-size: 36px;
   margin:0px;
-  color: #272142;
+  color: var(--branding-color);
 }
       
 .btn {
@@ -318,7 +318,6 @@ a:hover {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  padding-top:70px;
 }
 
 .custom-shape-divider-bottom-1726519050 svg {
@@ -327,27 +326,25 @@ a:hover {
   width: calc(161% + 1.3px);
   height: 69px;
   transform: rotateY(180deg);
+  
 }
 
 .custom-shape-divider-bottom-1726519050 .shape-fill {
   fill: #006269;
-}
 
-@media (max-width:960px) {
-  .custom-shape-divider-bottom-1726519050 {
-    display:none;
-  }
 }
 
 .anchor{
   padding-top:70px;
 }
 
-.devices-img {
+.ginkgo-img {
   display: block;
   margin: auto;
-  max-width: 550px;
+  rotate: -45deg;
+  max-width: 350px;
 }
+
 .offer {  
   color: var(--tertiary-color);
   font-family: var(--default-font-family);

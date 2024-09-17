@@ -221,7 +221,7 @@ a:hover {
   min-height:90vh;
   text-align: left;
   padding: 100px 20px;
-  background-image: linear-gradient(to bottom right, var(--branding-color), var(--tertiary-color));
+  background-image: linear-gradient(to bottom right, var(--secondary-color), var(--tertiary-color));
 }
 
 .hero h1{
@@ -445,8 +445,12 @@ a:hover {
 
 
 body {
+  position:relative;
   background-color: var(--branding-color);
-  
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 footer {

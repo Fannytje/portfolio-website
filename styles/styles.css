@@ -229,10 +229,23 @@ a:hover {
   font-weight: bold;
 }
 
+@media (max-width:960px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+}
+
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 30px;
+}
+
+
+@media (max-width:960px) {
+  .hero h2 {
+    font-size: 24px;
+  }
 }
 
 .hero p {
@@ -331,18 +344,24 @@ a:hover {
 
 .custom-shape-divider-bottom-1726519050 .shape-fill {
   fill: #006269;
-
 }
 
 .anchor{
   padding-top:70px;
 }
 
+
 .ginkgo-img {
-  display: block;
-  margin: auto;
-  rotate: -45deg;
+  rotate: -30deg;
   max-width: 350px;
+  margin-top: 60px;
+}
+
+@media (max-width:960px) {
+  .ginkgo-img {
+    max-width: 200px;
+    margin-top: 0px;
+  }
 }
 
 .offer {  
@@ -400,7 +419,6 @@ a:hover {
 .summary, .details {
   color:var(--tertiary-color);
 }
-
 
 .testimonial {
   background-color: var(--branding-color);
@@ -552,6 +570,7 @@ nav .btn-branding {
     font-size: 60px;
     line-height: 1,5;
   }
+
   h2{
     font-size: 44px;
   }
